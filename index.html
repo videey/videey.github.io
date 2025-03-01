@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Hosting on GitHub Pages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #000;
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            display: inline-block;
+            max-width: 800px;
+            width: 100%;
+        }
+        video {
+            width: 100%;
+            max-width: 800px;
+            display: block;
+            border-radius: 8px;
+            margin: 20px auto;
+        }
+        .info {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Welcome to My GitHub Video Hosting</h2>
+
+    <div class="container">
+        <video id="videoPlayer" controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <p class="info">If the video doesn't load, make sure your GitHub repository is public and the video file is accessible.</p>
+
+</body>
+</html>
